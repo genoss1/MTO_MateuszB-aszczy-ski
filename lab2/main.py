@@ -7,11 +7,14 @@ def my_printf(format_string,param):
     idx = 0
     while idx < num:
         if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2].isdigit and format_string[idx+3] == 'k':
-            # length = int(format_string[idx+2])
+            length = int(format_string[idx+2])
             param = param.swapcase()
+            param = param.rjust(length, ' ')
             print(param,end="")
+            idx = idx + 4
         else:
             print(format_string[idx],end="")
+            idx = idx + 1
     print("")
 
 data=sys.stdin.readlines()

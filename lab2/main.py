@@ -12,6 +12,9 @@ def my_printf(format_string,param):
             param = param.rjust(length, ' ')
             print(param,end="")
             idx = idx + 4
+        elif format_string[idx] == '#' and format_string[idx+1] == 'k':
+            print(param.swapcase(),end="")
+            idx = idx + 2
         else:
             print(format_string[idx],end="")
             idx = idx + 1

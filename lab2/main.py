@@ -6,7 +6,7 @@ def my_printf(format_string,param):
     num = len(format_string)
     idx = 0
     while idx < num:
-        if format_string[idx] == '#' and format_string[idx+1] == 'k':
+        if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2].isdigit and format_string[idx+3] == 'k':
             print(param,end="")
         else:
             print(format_string[idx],end="")

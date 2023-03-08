@@ -9,8 +9,7 @@ def my_printf(format_string,param):
         if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2].isdigit and format_string[idx+3] == 'k':
             length = int(format_string[idx+2])
             param = param.swapcase()
-            param = param.rjust(length, ' ')
-            print(param,end="")
+            print(param[0:int(format_string[i+2])], end="")
             idx = idx + 4
         elif format_string[idx] == '#' and format_string[idx+1] == 'k':
             print(param.swapcase(),end="")

@@ -1,22 +1,39 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
-    num = len(format_string)
-    idx = 0
-    while idx < num:
-        if format_string[idx] == '#' and format_string[idx+1] == '.' and format_string[idx+2].isdigit and format_string[idx+3] == 'k':
-            length = int(format_string[idx+2])
-            param = param.swapcase()
-            print(param[0:int(format_string[i+2])], end="")
-            idx = idx + 4
-        elif format_string[idx] == '#' and format_string[idx+1] == 'k':
-            print(param.swapcase(),end="")
-            idx = idx + 2
+    regex = r'#(\d+)?(\.)?(\d+)?k'
+    shouldDo=True
+    param = param.swapcase()
+    for idx in range(0,len(format_string)):
+        if shouldDo:
+            if format_string[idx] == '#':
+                result = re.search(regex, format_string[idx:])
+                min = result.group(1)
+                dot = result.group(2)
+                max = result.group(3)
+                if not min and not max:
+                    print(param,end="")
+                elif not min and max and dot:
+                    maxInt = int(max)
+                    print(f'{param:.{maxInt}}',end="")
+                elif min and not max and not dot:
+                    minInt = int(min)
+                    print(f'{param:>{minInt}}',end="")
+                elif min and max and dot:
+                    minInt = int(min)
+                    maxInt = int(max)
+                    print(f'{param:>{minInt}.{maxInt}}',end="")
+                else:
+                    break
+                shouldDo=False
+            else:
+                print(format_string[idx],end="")
         else:
-            print(format_string[idx],end="")
-            idx = idx + 1
+            if format_string[idx] == 'k':
+                shouldDo=True
     print("")
 
 data=sys.stdin.readlines()

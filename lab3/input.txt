@@ -4,4 +4,9 @@ totafsdfsf #k fdsfsdf
 tEST
 totafsdfsf #5k fdsfsdf
 tEST
-
+totafsdfsf #7k fdsfsdf
+tEST
+totafsdfsf #.7k fdsfsdf
+tEST
+totafsdfsf #.2k fdsfsdf
+tEST

@@ -4,28 +4,28 @@ import sys
 import re
 
 def my_printf(format_string,param):
-    regex = r'#(\d+)?(\.)?(\d+)?k'
+    REGEX = r'#(\d+)?(\.)?(\d+)?k'
     shouldDo=True
     param = param.swapcase()
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#':
-                result = re.search(regex, format_string[idx:])
-                min = result.group(1)
+                result = re.search(REGEX, format_string[idx:])
+                firstdigit = result.group(1)
                 dot = result.group(2)
-                max = result.group(3)
-                if not min and not max:
+                seconddigit = result.group(3)
+                if not firstdigit and not seconddigit:
                     print(param,end="")
-                elif not min and max and dot:
-                    maxInt = int(max)
-                    print(f'{param:.{maxInt}}',end="")
-                elif min and not max and not dot:
-                    minInt = int(min)
-                    print(f'{param:>{minInt}}',end="")
-                elif min and max and dot:
-                    minInt = int(min)
-                    maxInt = int(max)
-                    print(f'{param:>{minInt}.{maxInt}}',end="")
+                elif firstdigit and seconddigit and dot:
+                    firstdigitInt = int(firstdigit)
+                    seconddigitInt = int(seconddigit)
+                    print(f'{param:>{firstdigitInt}.{seconddigitInt}}',end="")
+                elif firstdigit and not seconddigit and not dot:
+                    firstdigitInt = int(firstdigit)
+                    print(f'{param:>{firstdigitInt}}',end="")
+                elif not firstdigit and seconddigit and dot:
+                    seconddigitInt = int(seconddigit)
+                    print(f'{param:.{seconddigitInt}}',end="")
                 else:
                     break
                 shouldDo=False

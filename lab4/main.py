@@ -7,7 +7,7 @@ def my_printf(format_string,param):
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
-                if param.isnumeric:
+                if param.isdigit:
                     paramik = int(param)
                     reversed_str = str(paramik)[::-1]
                     print(int(reversed_str), end='')

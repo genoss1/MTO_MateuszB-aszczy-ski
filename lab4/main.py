@@ -9,7 +9,7 @@ def my_printf(format_string,param):
             if format_string[idx] == '#' and format_string[idx+1] == 'g':
                 if param.isdigit:
                     reversed_str = str(param)[::-1]
-                    print(reversed_str, end='')
+                    print(int(reversed_str), end='')
                     shouldDo=False
                 else:
                     print(format_string[idx],end="")

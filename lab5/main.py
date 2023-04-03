@@ -19,7 +19,8 @@ def my_printf(format_string,param):
                             nowa_liczba += "9"
                         else:
                             nowa_liczba += str(int(cyfra)-1)
-                    print(f'{nowa_liczba:>{firstdigitInt}}',end="")
+                    paramik = int(nowa_liczba)
+                    print(f'{paramik:>{firstdigitInt}}',end="")
                 elif firstdigit and not param.isdigit():
                     firstdigitInt = int(firstdigit)
                     print(f'{param:>{firstdigitInt}}',end="")

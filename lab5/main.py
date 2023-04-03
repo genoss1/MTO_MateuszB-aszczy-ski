@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
-    #print(format_string)
+    REGEX = r'#(\d+)?g'
     shouldDo=True
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'g':
-                print(param,end="")
+            if format_string[idx] == '#':
+                result = re.search(REGEX, format_string[idx:])
+                firstdigit = result.group(1)
+                if firstdigit:
+                    firstdigitInt = int(firstdigit)
+                    print(f'{param:>{firstdigitInt}}',end="")
+                else:
+                    break
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
         else:
-            shouldDo=True
+            if format_string[idx] == 'g':
+                shouldDo=True
     print("")
 
 data=sys.stdin.readlines()

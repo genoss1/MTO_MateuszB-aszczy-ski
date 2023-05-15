@@ -6,3 +6,5 @@ test 1 #.1j
 1ABf732
 test 1 #.10j
 1ABf732
+test 1 #.10j
+DEADBEEF

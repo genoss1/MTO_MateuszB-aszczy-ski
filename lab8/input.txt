@@ -12,3 +12,7 @@ test 1 #.12j
 2
 test 1 #.14j
 333
+test 1 #.20j
+ABCDEF
+test 1 #.10j
+FEDCBA

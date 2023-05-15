@@ -1,10 +1,6 @@
-totafsdfsf test fdsfsdf
-totafsdtes fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf o jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds s jdlkfjdslf
-fjdslkfjdl 7 tttttt
-fjdlsjfkl 8 oooolll
-rwrewrew 9 fjdslkjfdl
-fjdlskjfldjflj 0 rewrewrew
+short 123
+short 0012
+short 0G
+short 0l
+lll
+#j

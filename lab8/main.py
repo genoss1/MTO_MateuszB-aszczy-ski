@@ -24,7 +24,7 @@ def my_printf(format_string, param):
             else:
                 output_text.append(x)
         out = ''.join(str(e) for e in output_text)
-        return out.upper()
+        return out
 
     should_do = True
     done = False

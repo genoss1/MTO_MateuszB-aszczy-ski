@@ -1,10 +1,10 @@
-totafsdfsf test fdsfsdf
-totafsdtest2 fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf test5 jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds test6 jdlkfjdslf
-fjdslkfjdl test7 tttttt
-fjdlsjfkl test8 oooolll
-rwrewrew test9 fjdslkjfdl
-fjdlskjfldjflj test10 rewrewrew
+test 1 001ABl
+test 1 1ABl42
+test 1 1ABl732
+test 1 0001ABl732
+test 1 0893274532
+test 1 000000000002
+test 1 00000000000333
+test 1 00000000000000ABCDEF
+test 1 0000FEDCBA
+test 1 FEDCBABACDEF

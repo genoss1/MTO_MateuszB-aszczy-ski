@@ -16,3 +16,5 @@ test 1 #.20j
 ABCDEF
 test 1 #.10j
 FEDCBA
+test 1 #.10j
+FEDCBABACDEF

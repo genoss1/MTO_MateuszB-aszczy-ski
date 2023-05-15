@@ -1,2 +1,6 @@
 test 1 #.6j
 1ABf
+test 1 #.2j
+1ABf42
+test 1 #.1j
+1ABf732

@@ -4,3 +4,7 @@ short 0G
 short 0l
 lll
 #j
+short 00123
+short 0000000012
+short G
+short 12

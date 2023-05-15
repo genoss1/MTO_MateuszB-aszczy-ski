@@ -10,3 +10,11 @@ f
 fff
 #j
 A
+short #.5j
+123
+short #.10j
+12
+short #.0j
+G
+short #.1j
+12

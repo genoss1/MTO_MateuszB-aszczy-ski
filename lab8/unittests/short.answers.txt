@@ -1,10 +1,10 @@
 short 123
-short 0012
-short 0G
-short 0l
+short oo12
+short oG
+short ol
 lll
-#j
-short 00123
-short 0000000012
+A
+short oo123
+short oooooooo12
 short G
 short 12

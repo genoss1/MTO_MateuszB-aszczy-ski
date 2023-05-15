@@ -26,32 +26,40 @@ def my_printf(format_string, param):
         out = ''.join(str(e) for e in output_text)
         return out
 
-    should_do = True
+    shouldDo=True
     done = False
-    regex = r'#[.](\d+)?j'
-    for idx in range(0, len(format_string)):
-        if should_do:
-            if format_string[idx] == '#' and not done:
+    regex = r'#[.]+?(\d+)?j'
+    regex2 = r'#j'
+    for idx in range(0,len(format_string)):
+        if shouldDo:
+            if format_string[idx] == '#' and done == False:
                 result = re.search(regex, format_string[idx:])
                 if not result:
-                    print(format_string[idx], end="")
+                    result = re.search(regex2, format_string[idx:])
+                    if result:
+                        output = transform(param)
+                        print(output,end="")
+                        done = True
+                        shouldDo = False
+                        continue
+                    print(format_string[idx],end="")
                     continue
 
                 min = result.group(1)
-                fill_char = '0'
+                fillChar = '0'
                 output = param
-                output = transform(output)
                 if min:
-                    min_int = int(min)
-                    output = output.rjust(min_int, fill_char)
-                print(output, end="")
+                    minInt = int(min)
+                    output = output.rjust(minInt, fillChar) 
+                output = transform(output)
+                print(output,end="")
                 done = True
-                should_do = False
+                shouldDo=False
             else:
-                print(format_string[idx], end="")
+                print(format_string[idx],end="")
         else:
             if format_string[idx] == 'j':
-                should_do = True
+                shouldDo=True
     print("")
 
 

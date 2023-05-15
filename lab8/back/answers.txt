@@ -1,10 +1,10 @@
-test 1 001ABl
+test 1 oo1ABl
 test 1 1ABl42
 test 1 1ABl732
-test 1 0001ABl732
-test 1 0893274532
-test 1 000000000002
-test 1 00000000000333
-test 1 00000000000000ABCDEF
-test 1 0000FEDCBA
+test 1 ooo1ABl732
+test 1 o893274532
+test 1 ooooooooooo2
+test 1 ooooooooooo333
+test 1 ooooooooooooooABCDEF
+test 1 ooooFEDCBA
 test 1 FEDCBABACDEF

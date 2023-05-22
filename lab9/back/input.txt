@@ -1,3 +1,71 @@
+totafsdfsf #wh fdsfsdf
+1.1123
+totafsd# fdsfsdf fdfjs
+2.2123
+jfldjfldk # wynik
+3.3123
+fjdfsfds # h alal
+4.4123
+djfjkldsjf .#15 jjjjjj fsfjdljfdlsj flj ldfj
+5.5231
+gjjkdsljflds #22222 jdlkfjdslf
+623.6
+fjdslkfjdl 15h tttttt
+7231.7
+fjdlsjfkl #.h oooolll
+8.82
+rwrewrew #.5555 fjdslkjfdl
+9.953
+fjdlskjfldjflj #.h rewrewrew
+10.01
+totafsdfsf #.3h fdsfsdf
+1.1
+totafsd#.1h fdsfsdf fdfjs
+2.2
+jfldjfldk #.1h wynik
+3.3
+fjdfsfds #.6h alal
+4.4
+djfjkldsjf #.5h jjjjjj fsfjdljfdlsj flj ldfj
+5.5
+gjjkdsljflds #.2h jdlkfjdslf 3
+6.6
+fjdslkfjdl #.1h tttttt
+7.7
+fjdlsjfkl #.2h oooolll
+8.8
+rwrewrew #.1h fjdslkjfdl
+9.9
+fjdlskjfldjflj #.1h rewrewrew
+10.01
+fjdlsjfkl 8#.1h oooolll
+11.11
+fjdlsjfkl7 #.1h oooolll
+12.12
+fjdlsjfkl6 #.2h oooolll
+13.13
+fjdlsjfkl5 #.3h oooolll
+14.14
+fjdlsjfkl3 #.4h oooolll
+15.15
+fjdlsjfkl44 #.2h oooolll
+16.16
+totsf #.3h fdsfsdf
+6514684.6519865284
+totafsd#.1h fdsfsdf fdfjs
+852625.1561987
+jfldjfldk #.1h
+819529629125.0
+#.7h alalsad
+819529629125149852629.5486
+#.3h fdsfsdfdas
+6514684.65165284
+totafsd#.1h fdsfsdf fdfjs
+852625.15617
+jfldjfldk #.1h wynik
+819529125.0
+fjdfds #.7h alal
+8195225149852629.5486
 totafsdfsf #.25j fdsfsdf
 6514684
 totafsd#.101j fdsfsdf fdfsadasdjs
@@ -14,3 +82,53 @@ jfldjfldk #.10j wynasdasdasik
 819529654329125
 fjdfsfds #.100j alasdasal
 81952962912515346547564849852629
+write #a word
+test
+write #b word
+test
+write #c word
+test
+write #d word
+test
+write #e word
+test
+write #f word
+test
+write #g word
+test
+write #i word
+test
+write #j word
+test
+write #k word
+test
+write #l word
+test
+write #m word
+test
+write #n word
+test
+write #o word
+test
+write #p word
+test
+write #q word
+test
+write #r word
+test
+write #s word
+test
+write #t word
+test
+write #u word
+test
+write #v word
+test
+write #w word
+test
+write #x word
+test
+write #y word
+test
+write #z word
+test

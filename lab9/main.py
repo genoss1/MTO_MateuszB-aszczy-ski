@@ -26,6 +26,7 @@ def num_to_letter(x):
         return 'i'
     if x == '9':
         return 'j'
+    return x
 
 def new_digit(y):
     try:

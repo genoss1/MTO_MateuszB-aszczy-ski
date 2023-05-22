@@ -1,95 +1,96 @@
 #!/usr/bin/env python3
 
 import sys
-import re
 
-def transform(numberString):
-    outputText = []
-    mode = 1;
-    for x in numberString:
-        if x == '.':
-            outputText.append('.')
-            mode = 2;
-        if x == '0':
-            if mode == 1:
-                outputText.append('a')
-            else:
-                outputText.append((0+5)%10)
-        elif x == '1':
-            if mode == 1:
-                outputText.append('b')
-            else:
-                outputText.append((1+5)%10)
-        elif x == '2':
-            if mode == 1:
-                outputText.append('c')
-            else:
-                outputText.append((2+5)%10)
-        elif x == '3':
-            if mode == 1:
-                outputText.append('d')
-            else:
-                outputText.append((3+5)%10)
-        elif x == '4':
-            if mode == 1:
-                outputText.append('e')
-            else:
-                outputText.append((4+5)%10)
-        elif x == '5':
-            if mode == 1:
-                outputText.append('f')
-            else:
-                outputText.append((5+5)%10)
-        elif x == '6':
-            if mode == 1:
-                outputText.append('g')
-            else:
-                outputText.append((6+5)%10)
-        elif x == '7':
-            if mode == 1:
-                outputText.append('h')
-            else:
-                outputText.append((7+5)%10)
-        elif x == '8':
-            if mode == 1:
-                outputText.append('i')
-            else:
-                outputText.append((8+5)%10)
-        elif x == '9':
-            if mode == 1:
-                outputText.append('j')
-            else:
-                outputText.append((9+5)%10)
-    out = ''.join(str(e) for e in outputText)
-    return out.lower()
+def is_number(x):
+    return x.isnumeric()
 
+def num_to_letter(x):
+    if x == '0':
+        return 'a'
+    if x == '1':
+        return 'b'
+    if x == '2':
+        return 'c'
+    if x == '3':
+        return 'd'
+    if x == '4':
+        return 'e'
+    if x == '5':
+        return 'f'
+    if x == '6':
+        return 'g'
+    if x == '7':
+        return 'h'
+    if x == '8':
+        return 'i'
+    if x == '9':
+        return 'j'
+
+def new_digit(y):
+    try:
+        x = int(y)
+        return str((x+5)%10)
+    except:
+        return y
+
+
+def float_dot(param, l):
+    ret = ""
+    i = 0
+    while (not (param[i] == '.')) and i < len(param):
+        ret = ret + num_to_letter(param[i])
+        i = i + 1
+
+    i = i + 1
+    ret = ret + '.'
+    w = 0
+
+    while w < l - 1:
+        if (i < len(param)):
+            ret = ret + new_digit(param[i])
+        else:
+           ret = ret + new_digit(0)
+        i = i + 1
+        w = w + 1
+
+    if (i + 1 < len(param)):
+        if (int(param[i+1]) >= 5):
+            ret = ret + new_digit(str(int(param[i])+1))
+        else:
+            ret = ret + new_digit(param[i])
+    elif (i < len(param)):
+        ret = ret + new_digit(param[i])
+    else:
+        ret = ret + new_digit(0)
+
+    
+    return ret
 
 def my_printf(format_string,param):
-    shouldDo=True
-    done = False
-    regex = r'#[.]+?(\d+)?h'
-    floatNum = float(param)
+    #print(format_string)
+    skip = 0
     for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and done == False:
-                result = re.search(regex, format_string[idx:])
-                if not result:
-                    print(format_string[idx],end="")
-                    continue
+        if skip == 0:
+            if format_string[idx] == '#' and format_string[idx+1] == '.' and is_number(format_string[idx+2]):
+                i = idx + 3
+                num = int(format_string[idx+2])
+                filler = "o"
+
+                while is_number(format_string[i]):
+                    num *= 10
+                    num += int(format_string[i])
+                    i += 1
                 
-                precision = result.group(1)
-                if precision:
-                    precisionInt = int(precision)
-                    output = f'{floatNum:.{precisionInt}f}'
-                output = transform(output)
-                print(output,end="")
-                done = True
-                shouldDo=False
+                if format_string[i] == 'h':
+                    print(float_dot(param, num),end="")
+                    skip = i - idx   
+                else:
+                    print(format_string[idx],end="")
             else:
                 print(format_string[idx],end="")
         else:
-            if format_string[idx] == 'h':
-                shouldDo=True
+            skip -= 1
     print("")
 
 data=sys.stdin.readlines()

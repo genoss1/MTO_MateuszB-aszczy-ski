@@ -1,22 +1,134 @@
-tsada #.10h feqw
-10.2134
-tsada #.20h feqw
-10.2134
-tsada #.30h fdasdqw
-103452412232.13213123424523423
-tsadasfafg#.60h feqw
-123412412342134345314.4234124312431
-tsada ggdgsghgfsftsada #.7h feqwtsada #h feqw
-313132141243254141.11234343123124124124
-tsada 42312reqwtsada #.4h feqwtsada #h feqw
-0.14112435141443533142145125142
-tsada 2eqwe#.3hasd4
-0.3124212435123153442355351
-tsad#.70hjasdsageqw
-1124325523554.2431412412414531
-tsad#.100h dasfgdfeqw
-10.0311
-tsada #.5hdasfgfeqw
-1014235141431531.0124134621243524
-tsada #.7hh gdfs5y45t
-126436523452235.12134134312415325235
+totafsdfsf #wh fdsfsdf
+1.1
+totafsd# fdsfsdf fdfjs
+2.2
+jfldjfldk # wynik
+3.3
+fjdfsfds # h alal
+4.4
+djfjkldsjf .#15 jjjjjj fsfjdljfdlsj flj ldfj
+5.5
+gjjkdsljflds #22222 jdlkfjdslf
+6.6
+fjdslkfjdl 15h tttttt
+7.7
+fjdlsjfkl #.h oooolll
+8.8
+rwrewrew #.5555 fjdslkjfdl
+9.9
+fjdlskjfldjflj #.h rewrewrew
+10.01
+totafsdfsf #.3h fdsfsdf
+1.1
+totafsd#.1h fdsfsdf fdfjs
+2.2
+jfldjfldk #.1h wynik
+3.3
+fjdfsfds #.6h alal
+4.4
+djfjkldsjf #.5h jjjjjj fsfjdljfdlsj flj ldfj
+5.5
+gjjkdsljflds #.2h jdlkfjdslf 3
+6.6
+fjdslkfjdl #.1h tttttt
+7.7
+fjdlsjfkl #.2h oooolll
+8.8
+rwrewrew #.1h fjdslkjfdl
+9.9
+fjdlskjfldjflj #.1h rewrewrew
+10.01
+fjdlsjfkl 8#.1h oooolll
+11.11
+fjdlsjfkl7 #.1h oooolll
+12.12
+fjdlsjfkl6 #.2h oooolll
+13.13
+fjdlsjfkl5 #.3h oooolll
+14.14
+fjdlsjfkl3 #.4h oooolll
+15.15
+fjdlsjfkl44 #.2h oooolll
+16.16
+totsf #.3h fdsfsdf
+6514684.6519865284
+totafsd#.1h fdsfsdf fdfjs
+852625.1561987
+jfldjfldk #.1h
+819529629125.0
+#.7h alalsad
+819529629125149852629.5486
+#.3h fdsfsdfdas
+6514684.65165284
+totafsd#.1h fdsfsdf fdfjs
+852625.15617
+jfldjfldk #.1h wynik
+819529125.0
+fjdfds #.7h alal
+8195225149852629.5486
+totafsdfsf #.25j fdsfsdf
+6514684
+totafsd#.101j fdsfsdf fdfsadasdjs
+852625
+jfldjfldk #.10j wynsadsadik
+819529629125
+fjdfsfds #.100j alsdsadal
+819529629125149852629
+totafsdfsf #.25j fdsasdasdasdfsdf
+6514684
+totafsd#.101j fsadsadasddsfsdf fdfjs
+852625
+jfldjfldk #.10j wynasdasdasik
+819529654329125
+fjdfsfds #.100j alasdasal
+81952962912515346547564849852629
+write #a word
+test
+write #b word
+test
+write #c word
+test
+write #d word
+test
+write #e word
+test
+write #f word
+test
+write #g word
+test
+write #i word
+test
+write #j word
+test
+write #k word
+test
+write #l word
+test
+write #m word
+test
+write #n word
+test
+write #o word
+test
+write #p word
+test
+write #q word
+test
+write #r word
+test
+write #s word
+test
+write #t word
+test
+write #u word
+test
+write #v word
+test
+write #w word
+test
+write #x word
+test
+write #y word
+test
+write #z word
+test

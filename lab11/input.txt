@@ -1,20 +1,316 @@
-totafsdfsf #k fdsfsdf
-test
-totafsd#k fdsfsdf fdfjs
-test2
+totafsdfsf #wh fdsfsdf
+11123
+totafsd# fdsfsdf fdfjs
+221343
 jfldjfldk # wynik
-test3
-fjdfsfds # k alal
-test4
-djfjkldsjf #k jjjjjj fsfjdljfdlsj flj ldfj
-test5
-gjjkdsljflds #k jdlkfjdslf
-test6
-fjdslkfjdl #k tttttt
-test7
-fjdlsjfkl #k oooolll
-test8
-rwrewrew #k fjdslkjfdl
-test9
-fjdlskjfldjflj #k rewrewrew
-test10
+378
+fjdfsfds # h alal
+441
+djfjkldsjf .#15 jjjjjj fsfjdljfdlsj flj ldfj
+54
+gjjkdsljflds #22222 jdlkfjdslf
+623
+fjdslkfjdl 15h tttttt
+723423
+fjdlsjfkl #.h oooolll
+8
+rwrewrew #.5555 fjdslkjfdl
+9
+fjdlskjfldjflj #.h rewrewrew
+10
+totsf #a fdsfsdf
+3
+totsf #a fdsfsdf
+7
+totsf #a fdsfsdf
+37
+totsf #a fdsfsdf
+54
+totsf #a fdsfsdf
+37
+totsf #a fdsfsdf
+37
+totsf #a fdsfsdf
+33
+totsf #a fdsfsdf
+397
+totsf #a fdsfsdf
+0
+totsf #a fdsfsdf
+12
+totsf #a fdsfsdf
+37248985729357239857
+totsf #a fdsfsdf
+37248985729357239857
+totsf #a fdsfsdf
+37248985729357239857
+totsf #a fdsfsdf
+3724898572935723
+totsf #a fdsfsdf
+37248985729339857
+totsf #a fdsfsdf
+372489357239857
+totsf #a fdsfsdf
+37248398239857
+totsf #a fdsfsdf
+37248985752354355345239857
+totsf #a fdsfsdf
+372489857293327239857
+totsf #a fdsfsdf
+3724898572237239857
+totafsdfsf #a fdsfsdf
+879824784354535345345214
+totafsdfsf #a fdsfsdf
+8798247812974891352358
+totafsdfsf #a fdsfsdf
+879824781297489127498244444444444
+totafsdfsf #a fdsfsdf
+8798247812974893333333
+totafsdfsf #a fdsfsdf
+879824781297489121242398
+totafsdfsf #a fdsfsdf
+879824781297489127498217498
+totafsdfsf #a fdsfsdf
+87982478129748912749321
+totafsdfsf #a fdsfsdf
+87982478129748312
+totafsdfsf #a fdsfsdf
+8798247812974891274982
+totafsdfsf #a fdsfsdf
+87982478129748912749
+write #a word
+test
+write #b word
+test
+write #c word
+test
+write #d word
+test
+write #e word
+test
+write #f word
+test
+write #g word
+test
+write #i word
+test
+write #j word
+test
+write #k word
+test
+write #l word
+test
+write #m word
+test
+write #n word
+test
+write #o word
+test
+write #p word
+test
+write #q word
+test
+write #r word
+test
+write #s word
+test
+write #t word
+test
+write #u word
+test
+write #v word
+test
+write #w word
+test
+write #x word
+test
+write #y word
+test
+write #z word
+test
+#a
+3416
+#a
+3417
+#a
+3420
+#a
+3421
+#a
+3424
+#a
+3425
+#a
+3428
+#a
+3429
+#a
+3432
+#a
+3433
+#a
+3436
+#a
+3437
+#a
+3440
+#a
+3441
+#a
+3444
+#a
+3445
+#a
+3448
+#a
+3449
+#a
+3452
+#a
+3453
+#a
+3456
+#a
+3457
+#a
+3460
+#a
+3461
+#a
+3464
+#a
+3465
+#a
+3468
+#a
+3469
+#a
+3472
+#a
+3473
+#a
+3476
+#a
+3477
+#a
+3480
+#a
+3481
+#a
+3484
+#a
+3485
+#a
+3488
+#a
+3489
+#a
+3492
+#a
+3493
+#a
+3496
+#a
+3497
+#a
+3500
+#a
+3501
+#a
+3504
+#a
+3505
+#a
+3508
+#a
+3509
+#a
+3512
+#a
+3513
+#a
+3516
+#a
+3517
+#a
+3520
+#a
+3521
+#a
+3524
+#a
+3525
+#a
+3528
+#a
+3529
+#a
+3532
+#a
+3533
+#a
+3536
+#a
+3537
+#a
+3540
+#a
+3541
+#a
+3544
+#a
+3545
+#a
+3548
+#a
+3549
+#a
+3552
+#a
+3553
+#a
+3556
+#a
+3557
+#a
+3560
+#a
+3561
+#a
+3564
+#a
+3565
+#a
+3568
+#a
+3569
+#a
+3572
+#a
+3573
+#a
+3576
+#a
+3577
+#a
+3580
+#a
+3581
+#a
+3584
+#a
+3585
+#a
+3588
+#a
+3589
+#a
+3592
+#a
+3593
+#a
+3596
+#a
+3597
+#a
+3600

@@ -1,0 +1,50 @@
+write #a word
+test
+write #b word
+test
+write #c word
+test
+write #d word
+test
+write #e word
+test
+write #f word
+test
+write #g word
+test
+write #i word
+test
+write #j word
+test
+write #k word
+test
+write #l word
+test
+write #m word
+test
+write #n word
+test
+write #o word
+test
+write #p word
+test
+write #q word
+test
+write #r word
+test
+write #s word
+test
+write #t word
+test
+write #u word
+test
+write #v word
+test
+write #w word
+test
+write #x word
+test
+write #y word
+test
+write #z word
+test

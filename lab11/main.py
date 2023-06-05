@@ -2,26 +2,35 @@
 
 import sys
 
-def new_number(old_number):
-    new_number = int((old_number * 2) / len(str(old_number)))
-    if new_number % 2 != 0:
-        return str(hex(new_number)).replace('0x', '')
-    return str(new_number)
+
+def weird_binary(param):
+    binary = bin(param).replace('0b', '')
+
+    changed_binary = ''
+
+    for i, num in enumerate(binary[::-1]):
+        if num == '0':
+            changed_binary += '0'
+        else:
+            changed_binary += 'abcdefghij'[(i)%10]
+
+    changed_binary = changed_binary[::-1]
+
+    return changed_binary
 
 
 def my_printf(format_string, param):
-    if '#a' not in format_string:
+    replace = '#b'
+    if replace not in format_string:
         print(format_string)
         return
-
-    replace = '#a'
 
     try:
         param = int(param)
     except Exception:
         param = 0
 
-    replace_with = new_number(param)
+    replace_with = weird_binary(param)
 
     print(format_string.replace(replace, replace_with))
 

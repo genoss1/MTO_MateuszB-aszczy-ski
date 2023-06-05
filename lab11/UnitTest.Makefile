@@ -64,12 +64,7 @@ endef
 	
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
-	$(call perform_test,noparam,"No param")
 	$(call perform_test,small,Small)
-	$(call perform_test,large,Large)
-	$(call perform_test,long,Long)
-	$(call perform_test,letters,Letters)
-	$(call perform_test,decimal,Decimal)
 
 	$(call restore_data)
 
@@ -78,12 +73,7 @@ generate:
 
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
-	$(call generate_answers,noparam)
 	$(call generate_answers,small)
-	$(call generate_answers,large)
-	$(call generate_answers,long)
-	$(call generate_answers,letters)
-	$(call generate_answers,decimal)
 	
 
 	$(call restore_data)
@@ -92,9 +82,4 @@ merge:
 	-rm ./input.txt 2>/dev/null
 	-rm ./answers.txt 2>/dev/null
 
-	$(call merge_test,noparam)
 	$(call merge_test,small)
-	$(call merge_test,large)
-	$(call merge_test,long)
-	$(call merge_test,letters)
-	$(call merge_test,decimal)

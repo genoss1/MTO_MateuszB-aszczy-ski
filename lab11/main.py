@@ -4,7 +4,7 @@ import sys
 
 
 def weird_binary(param):
-    binary = bin(param).replace('0b', '')
+    binary = bin(param).replace('-0b', '').replace('0b', '')
 
     changed_binary = ''
 

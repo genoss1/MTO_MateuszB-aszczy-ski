@@ -1,0 +1,8 @@
+asd
+123
+asd #a
+asd
+asd #a
+0
+asd #a
+-123

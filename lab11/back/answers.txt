@@ -1,158 +1,173 @@
-totafsdfsf #wh fdsfsdf
-totafsd# fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # h alal
-djfjkldsjf .#15 jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds #22222 jdlkfjdslf
-fjdslkfjdl 15h tttttt
-fjdlsjfkl #.h oooolll
-rwrewrew #.5555 fjdslkjfdl
-fjdlskjfldjflj #.h rewrewrew
-totsf 6 fdsfsdf
-totsf 14 fdsfsdf
-totsf 25 fdsfsdf
-totsf 54 fdsfsdf
-totsf 25 fdsfsdf
-totsf 25 fdsfsdf
-totsf 21 fdsfsdf
-totsf 264 fdsfsdf
-totsf 0 fdsfsdf
-totsf 12 fdsfsdf
-totsf 3724898572935724032 fdsfsdf
-totsf 3724898572935724032 fdsfsdf
-totsf 3724898572935724032 fdsfsdf
-totsf 1a778d1087445 fdsfsdf
-totsf 4382233615216454 fdsfsdf
-totsf 49665247631980 fdsfsdf
-totsf 4d6f03885c7 fdsfsdf
-totsf 2865306596334950267486208 fdsfsdf
-totsf 35475224504126402560 fdsfsdf
-totsf 392094586551288384 fdsfsdf
-totafsdfsf 73318732029544611446784 fdsfsdf
-totafsdfsf 799840710270444634112 fdsfsdf
-totafsdfsf 53322714018029648229029969395712 fdsfsdf
-totafsdfsf 799840710270444896256 fdsfsdf
-totafsdfsf 73318731774790756990976 fdsfsdf
-totafsdfsf 65172206022036231001473024 fdsfsdf
-totafsdfsf 7650650272152079564800 fdsfsdf
-totafsdfsf 10350879779970390 fdsfsdf
-totafsdfsf 799840710270444634112 fdsfsdf
-totafsdfsf 8798247812974891008 fdsfsdf
-write 0 word
-write #b word
-write #c word
-write #d word
-write #e word
-write #f word
-write #g word
-write #i word
-write #j word
-write #k word
-write #l word
-write #m word
-write #n word
-write #o word
-write #p word
-write #q word
-write #r word
-write #s word
-write #t word
-write #u word
-write #v word
-write #w word
-write #x word
-write #y word
-write #z word
-1708
-1708
-1710
-1710
-1712
-1712
-1714
-1714
-1716
-1716
-1718
-1718
-1720
-1720
-1722
-1722
-1724
-1724
-1726
-1726
-1728
-1728
-1730
-1730
-1732
-1732
-1734
-1734
-1736
-1736
-1738
-1738
-1740
-1740
-1742
-1742
-1744
-1744
-1746
-1746
-1748
-1748
-1750
-1750
-1752
-1752
-1754
-1754
-1756
-1756
-1758
-1758
-1760
-1760
-1762
-1762
-1764
-1764
-1766
-1766
-1768
-1768
-1770
-1770
-1772
-1772
-1774
-1774
-1776
-1776
-1778
-1778
-1780
-1780
-1782
-1782
-1784
-1784
-1786
-1786
-1788
-1788
-1790
-1790
-1792
-1792
-1794
-1794
-1796
-1796
-1798
-1798
-1800
+.0.
+.a.
+.b0.
+.ba.
+.c00.
+.c0a.
+.cb0.
+.cba.
+.d000.
+.d00a.
+.d0b0.
+.d0ba.
+.dc00.
+.dc0a.
+.dcb0.
+.dcba.
+.e0000.
+.e000a.
+.e00b0.
+.e00ba.
+.e0c00.
+.e0c0a.
+.e0cb0.
+.e0cba.
+.ed000.
+.ed00a.
+.ed0b0.
+.ed0ba.
+.edc00.
+.edc0a.
+.edcb0.
+.edcba.
+.f00000.
+.f0000a.
+.f000b0.
+.f000ba.
+.f00c00.
+.f00c0a.
+.f00cb0.
+.f00cba.
+.f0d000.
+.f0d00a.
+.f0d0b0.
+.f0d0ba.
+.f0dc00.
+.f0dc0a.
+.f0dcb0.
+.f0dcba.
+.fe0000.
+.fe000a.
+.f0d000jihgfedcb0.
+.gf00000jih0f00c0a.
+.fe000a00hgf00cba.
+.g0000ba0i000e0c00.
+.g0e0c000i0g000cb0.
+.e00000ih00edc0a.
+.f0dcba0i0gfedc00.
+.fed00aj0hg0000ba.
+.edc00jih000000a.
+.g0e000ajihg0ed0ba.
+.g0e0cb0jihgf0d00a.
+.fe0cbaj0h00e000a.
+.f0dcbajih0000c0a.
+.f000000ih00e0cba.
+.g0e0c00j0h0f0d0b0.
+.g0edc0a0ihg000cba.
+.g0edc00jihg00d0b0.
+.g0000b0000g0e0cba.
+.fe0c0ajih00edc0a.
+.g000c00ji0000d000.
+.g0e0c00000g000000.
+.g00d00000000e0cba.
+.e000000h000000a.
+.fedcba000g000cb0.
+.g00d0b00i00fe00b0.
+.ed0000ih0fe00b0.
+.f0dc00j000f0dc00.
+.edc0aj0hg0e0cb0.
+.f0000ajihg0e0c00.
+.fed0b0ji00fed000.
+.g00dc00ji000e00ba.
+.fe0cb0j0hgf0000a.
+.e00ba0i0gfe00ba.
+.fed0baji0g00d0b0.
+.edc0a00hgf0d000.
+.edcba000gfedcb0.
+.dc000i0000d0ba.
+.fe0cbaji0gf0dcba.
+.dc00j0hg0ed0b0.
+.g0ed00a00hg000000.
+.gf0000aj00gf0d0ba.
+.e0cb0000g0000b0.
+.edcbajihg0e000a.
+.e000a0i0g0edcb0.
+.g00d00000hgfedcb0.
+.g0e0cbaj0h0000cb0.
+.edc0a00hg0e0c0a.
+.fed0b0j00g0000b0.
+.fedcb00i000ed000.
+.f0d00a00hg00dc00.
+.a0ih0fedcb000hg00d0ba00hg0e00b0.
+.ajih00edcbaj0hg00dcb0ji0gf00c00.
+.a0i0g00d0b00ih000d00ajihg0ed0b0.
+.a0i0g00dc0aji0gf0d0baj0hg0ed0b0.
+.a0i0gfed0baj0000edc00ji00f0000a.
+.a0ihgfed0baj0hgfed00000000e00ba.
+.a00h0000c000ihg000cbaji00fedc00.
+.aj0000e000000hgf0d00a00hgf0dcba.
+.a0ihg00d0ba0ih0fe0c00jih0000000.
+.a0ihgf0d000jihgfed0000000fedcba.
+.ajih0fe0cb0j0000000b00i0gf00cb0.
+.a000g0e000ajih00ed0bajih0000cb0.
+.aj00g0edc000ih000d00aj00gf00000.
+.aj0hgf000b00i000e0cba0i0000dcb0.
+.a0i00f0dcbaj0hg0e0c0a0i0gfed00a.
+.a00hgfe0c00jihg0edcbajihg0edcb0.
+.a0i0g0e00000ih0f000bajih0f0d00a.
+.jihgfedc00j00g0edcb00ihgf00c0a.
+.aj00gf000bajih00edc000i0gfe0000.
+.jihg0ed0000i00000c00jih0fedcb0.
+.aj00gfe00b0j0h0f000bajih0f00000.
+.a00hg00d0b00i0gf000000ih0f0d0b0.
+.aj0h0fed0b0000g00d0000i00f00cb0.
+.aj00gf00c0a0ihgfe000a0i0000dcb0.
+.ajih00e0c0a0i000e00baj00g0edcba.
+.aj0hgf000b0j0hg00dcb0j0h0000c0a.
+.a00000edc0aj0hgfe0c0aj00g0ed00a.
+.a0ihg00d0baj00000d00a0ih0000000.
+.aj000fe0c000i0gf00cb0j0h00edc00.
+.aji0g0000ba0i000e0cb0j0h0f00cba.
+.aj0h0000c0aji000e0cb0j000fe0000.
+.aji0gf0dcb00000fe0cba0ihg0000ba.
+.a00000edcbaji0gfedcb0jihg00dc0a.
+.aj0h0f0d0000ih00e000a0ihgf0dcba.
+.aji0g000cba000gf000000ihg0e0000.
+.aji00fedcb0jih000dc00000g0e0c0a.
+.ajihg00d0000ihg00d00aji00f0d000.
+.aj00g000c0000hg0ed0b00ihg00d0b0.
+.a0i00fe0c0a00hg0edcbaji00fed000.
+.ajihgfe00baj00g00dcbaj0h0fed000.
+.a0i0gf0dcb0jihgfe000a0i0g00d0ba.
+.aj0hgf0dc0000hgfedc0a000gfe00ba.
+.ajih00e00000ihgfed0b0000000dc0a.
+.a0000f000000ihg00d00a0i00fe0c0a.
+.aj000fe0c000i00f0d000j0hgfe0cba.
+.a0ih0f0dc0a0ihg00dc00j0hgfedcba.
+.aji00000c0a0i0gf00c00j00gf0d000.
+.a0ihgf00cb00ih0f0000ajih00edcb0.
+.ajihg0ed00ajih0f00c000i00f00c00.
+.a0ihg0000b0j0000edc0a0ih0f0d00a.
+asd
+asd #a
+asd #a
+asd #a
+.#123.12j.
+.#123.12g.
+.#g.
+.#h.
+.h.
+..12h.
+.#.12.
+.#.h.
+.#12.h.
+.#.a.
+..12a.
+.#.12.
+.#.a.
+.#12.a.
+.#.b.
+..12b.
+.#.12.
+.#.b.
+.#12.b.

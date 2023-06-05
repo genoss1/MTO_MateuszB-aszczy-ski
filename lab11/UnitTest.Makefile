@@ -65,6 +65,10 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,small,Small)
+	$(call perform_test,big,Big)
+	$(call perform_test,noinput,NOInput)
+	$(call perform_test,sample,Sample)
+	$(call perform_test,very_big,VeryBig)
 
 	$(call restore_data)
 
@@ -74,6 +78,10 @@ generate:
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
 	$(call generate_answers,small)
+	$(call generate_answers,big)
+	$(call generate_answers,very_big)
+	$(call generate_answers,sample)
+	$(call generate_answers,noinput)
 	
 
 	$(call restore_data)
@@ -83,3 +91,7 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,small)
+	$(call merge_test,big)
+	$(call merge_test,very_big)
+	$(call merge_test,sample)
+	$(call merge_test,noinput)
